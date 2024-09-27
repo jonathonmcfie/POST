@@ -128,13 +128,14 @@ main p {
 /* Donors */
 
 .Donors {
-    margin-inline: 220px;
-    margin-top: 30px;
+    margin-inline: 30%;
+    margin-top: 20px;
+    box-align: center;
 }
 
 .Donors img {
-    margin: 10px;
-    width: 80px;
+    margin: 2px;
+    height: 80px;
     border-radius: 40px;
     float: left;
 }
@@ -142,21 +143,44 @@ main p {
 .Donors h2 {
     float: left;
     margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 18px;
 }
 
 .Donors p {
     float: left;
-    margin-top: 4px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 17px
 }
 
 .DonorText {
-    margin-block: _________________________________
+    margin-block: 16px;
+    width: 300px;
+    height: 52px;
 }
 
 .Gold {
     background-color: #FFFBDE;
-    height: 100px;
+    height: 84px;
     border-radius: 40px;
     border: 4px solid #147187;
     padding: 6px;
+    margin-block: 10px;
+}
+.Silver {
+    background-color: #FAFAFA;
+    height: 84px;
+    border-radius: 40px;
+    border: 4px solid #147187;
+    padding: 6px;
+    margin-block: 10px;
+}
+.Bronze {
+    background-color: #EAE3D8;
+    height: 84px;
+    border-radius: 40px;
+    border: 4px solid #147187;
+    padding: 6px;
+    margin-block: 10px;
 }
